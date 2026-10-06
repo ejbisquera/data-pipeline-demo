@@ -29,7 +29,7 @@ print("---->Data transformed in ",str(t1 - t0) + " seconds",  "\n")
 
 # Step 4: Generate text embeddings
 t0 = time.time()
-generatetextEmbeddings()
+createTextEmbeddings()
 t1 = time.time()
 print("Step 4: Done")
 print("---->Embeddings generated in ",str(t1 - t0) + " seconds",  "\n")
