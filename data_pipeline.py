@@ -7,7 +7,7 @@ print("--------------------------------")
 
 # Step 1: extract video Ids
 t0 = time.time()
-getvideoids()
+getVideoIDs()
 t1 = time.time()
 print("Step 1: Done")
 print("---->completed in ",str(t1 - t0) + " seconds", "\n")
